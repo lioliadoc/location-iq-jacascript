@@ -22,11 +22,7 @@ const findLatitudeAndLongitude = (query) => {
     .catch ((error) => {
         console.log('error');
     });
-    return {
-        lat:latitude,
-        lon:longitude
-
-    }
+ 
 }
 
-const longLat = findLatitudeAndLongitude ('Christ the Redeemer')
+const longLat = findLatitudeAndLongitude ('Machu Picchu')
